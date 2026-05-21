@@ -102,8 +102,13 @@ Matching terminal themes in `terminal-themes/`:
 | Number | `#8F6614` |
 | Tag | `#1C5DB5` |
 
+## Matching icons
+
+Pair this theme with [Air Icons for Zed](https://github.com/franzgollhammer/air-icons-zed) — JetBrains Air-inspired file icons designed to match this color palette.
+
 ## Related projects
 
+- [Air Icons for Zed](https://github.com/franzgollhammer/air-icons-zed)
 - [Air Theme for VSCode](https://github.com/franzgollhammer/air-theme-vscode)
 - [JetBrains Air (original)](https://www.jetbrains.com/help/idea/working-with-themes.html)
 
