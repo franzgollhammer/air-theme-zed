@@ -1,19 +1,19 @@
-# Air Theme für Zed
+# Air Theme for Zed
 
 <p align="center">
   <img src="air-theme.png" width="128" alt="Air Theme Logo" />
 </p>
 
-Zed-Port von [JetBrains Air](https://github.com/franzgollhammer/air-theme-vscode) — ruhige Theme-Familie mit lavendelfarbenen Keywords, pinken Strings, bernsteinfarbenen Zahlen und grünen Typen.
+Zed port of [JetBrains Air](https://github.com/franzgollhammer/air-theme-vscode) — a calm theme family with lavender keywords, pink strings, amber numbers, and green types.
 
-## Varianten
+## Variants
 
-Vier Varianten enthalten:
+Four variants included:
 
-- **Air Dark** — Dunkles Theme
-- **Air Dark Italic** — Dunkel mit kursiven Parametern/Strings und fetten Funktionen
-- **Air Light** — Helles Theme
-- **Air Light Italic** — Hell mit kursiven Parametern/Strings und fetten Funktionen
+- **Air Dark** — Dark theme
+- **Air Dark Italic** — Dark with italic parameters/strings and bold functions
+- **Air Light** — Light theme
+- **Air Light Italic** — Light with italic parameters/strings and bold functions
 
 ### Air Dark
 
@@ -31,49 +31,49 @@ Vier Varianten enthalten:
 
 ![Air Light Italic](preview-air-theme-light-italic.png)
 
-### Italic-Stile
+### Italic styles
 
-| Token | Stil |
-|-------|------|
-| `function`, `function.method`, `function.builtin` | **fett** |
-| `variable.parameter` | *kursiv* |
-| `string`, `string.escape`, `string.regex` | *kursiv* |
-| `comment` | *kursiv* (alle Varianten) |
+| Token | Style |
+|-------|-------|
+| `function`, `function.method`, `function.builtin` | **bold** |
+| `variable.parameter` | *italic* |
+| `string`, `string.escape`, `string.regex` | *italic* |
+| `comment` | *italic* (all variants) |
 
 ## Installation
 
-### Aus dem Extensions-Tab
+### From the Extensions tab
 
-1. `cmd+shift+x` → Extensions öffnen
-2. Nach "Air Theme" suchen
-3. Install klicken
-4. `cmd+k cmd+t` → Variante wählen
+1. `cmd+shift+x` → open Extensions
+2. Search for "Air Theme"
+3. Click Install
+4. `cmd+k cmd+t` → pick a variant
 
-### Manuell (Dev Extension)
+### Manually (dev extension)
 
 ```bash
 git clone https://github.com/franzgollhammer/air-theme-zed
 ```
 
-1. Zed öffnen
+1. Open Zed
 2. `cmd+shift+p` → `zed: install dev extension`
-3. Geklonten Ordner wählen
-4. `cmd+k cmd+t` → Variante wählen
+3. Select the cloned folder
+4. `cmd+k cmd+t` → pick a variant
 
-## Terminal Themes
+## Terminal themes
 
-Passende Terminal-Themes im Ordner `terminal-themes/`:
+Matching terminal themes in `terminal-themes/`:
 
 - **Ghostty** — `terminal-themes/ghostty/air-dark`, `air-light`
 - **iTerm2** — `terminal-themes/iterm2/air-dark.itermcolors`, `air-light.itermcolors`
 - **Warp** — `terminal-themes/warp/air-dark.yaml`, `air-light.yaml`
 
-## Farbpalette
+## Color palette
 
 ### Dark
 
-| Rolle | Hex |
-|-------|-----|
+| Role | Hex |
+|------|-----|
 | Background | `#18191B` |
 | Foreground | `#dddddd` |
 | Comment | `#909192` |
@@ -88,8 +88,8 @@ Passende Terminal-Themes im Ordner `terminal-themes/`:
 
 ### Light
 
-| Rolle | Hex |
-|-------|-----|
+| Role | Hex |
+|------|-----|
 | Background | `#FBFBFC` |
 | Foreground | `#1F2024` |
 | Comment | `#8C8C8C` |
@@ -102,22 +102,22 @@ Passende Terminal-Themes im Ordner `terminal-themes/`:
 | Number | `#8F6614` |
 | Tag | `#1C5DB5` |
 
-## Verwandte Projekte
+## Related projects
 
-- [Air Theme für VSCode](https://github.com/franzgollhammer/air-theme-vscode)
-- [JetBrains Air (Original)](https://www.jetbrains.com/help/idea/working-with-themes.html)
+- [Air Theme for VSCode](https://github.com/franzgollhammer/air-theme-vscode)
+- [JetBrains Air (original)](https://www.jetbrains.com/help/idea/working-with-themes.html)
 
 ## Publishing
 
-Siehe [Zed Extensions Docs](https://zed.dev/docs/extensions/themes).
+See the [Zed Extensions docs](https://zed.dev/docs/extensions/themes).
 
-PR gegen [zed-industries/extensions](https://github.com/zed-industries/extensions):
+PR against [zed-industries/extensions](https://github.com/zed-industries/extensions):
 
 ```bash
 git submodule add https://github.com/franzgollhammer/air-theme-zed extensions/air-theme
 ```
 
-`extensions.toml` erweitern:
+Add to `extensions.toml`:
 
 ```toml
 [air-theme]
@@ -125,6 +125,6 @@ submodule = "extensions/air-theme"
 version = "0.1.0"
 ```
 
-## Lizenz
+## License
 
 MIT
