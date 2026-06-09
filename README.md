@@ -33,12 +33,12 @@ Four variants included:
 
 ### Italic styles
 
-| Token | Style |
-|-------|-------|
-| `function`, `function.method`, `function.builtin` | **bold** |
-| `variable.parameter` | *italic* |
-| `string`, `string.escape`, `string.regex` | *italic* |
-| `comment` | *italic* (all variants) |
+| Token                                             | Style                   |
+| ------------------------------------------------- | ----------------------- |
+| `function`, `function.method`, `function.builtin` | **bold**                |
+| `variable.parameter`                              | _italic_                |
+| `string`, `string.escape`, `string.regex`         | _italic_                |
+| `comment`                                         | _italic_ (all variants) |
 
 ## Installation
 
@@ -72,35 +72,35 @@ Matching terminal themes in `terminal-themes/`:
 
 ### Dark
 
-| Role | Hex |
-|------|-----|
+| Role       | Hex       |
+| ---------- | --------- |
 | Background | `#18191B` |
 | Foreground | `#dddddd` |
-| Comment | `#909192` |
-| String | `#E394DC` |
-| Keyword | `#82D2CE` |
-| Function | `#F8C762` |
-| Type | `#EFB080` |
-| Variable | `#AAA0FA` |
-| Parameter | `#A8CC7C` |
-| Number | `#EBC88D` |
-| Tag | `#87C3FF` |
+| Comment    | `#909192` |
+| String     | `#E394DC` |
+| Keyword    | `#82D2CE` |
+| Function   | `#F8C762` |
+| Type       | `#EFB080` |
+| Variable   | `#AAA0FA` |
+| Parameter  | `#A8CC7C` |
+| Number     | `#EBC88D` |
+| Tag        | `#87C3FF` |
 
 ### Light
 
-| Role | Hex |
-|------|-----|
+| Role       | Hex       |
+| ---------- | --------- |
 | Background | `#FBFBFC` |
 | Foreground | `#1F2024` |
-| Comment | `#8C8C8C` |
-| String | `#B03A88` |
-| Keyword | `#1F7F78` |
-| Function | `#8D6B1F` |
-| Type | `#A85A29` |
-| Variable | `#5A4ECF` |
-| Parameter | `#4E7A2A` |
-| Number | `#8F6614` |
-| Tag | `#1C5DB5` |
+| Comment    | `#8C8C8C` |
+| String     | `#B03A88` |
+| Keyword    | `#1F7F78` |
+| Function   | `#8D6B1F` |
+| Type       | `#A85A29` |
+| Variable   | `#5A4ECF` |
+| Parameter  | `#4E7A2A` |
+| Number     | `#8F6614` |
+| Tag        | `#1C5DB5` |
 
 ## Matching icons
 
