@@ -136,32 +136,64 @@
         "warning.background": "#cca70022",
         "warning.border": "#cca700",
         "players": [
-          { "cursor": "#0078d4", "background": "#0078d4", "selection": "#264f78" },
-          { "cursor": "#82D2CE", "background": "#82D2CE", "selection": "#82D2CE44" },
-          { "cursor": "#E394DC", "background": "#E394DC", "selection": "#E394DC44" },
-          { "cursor": "#A8CC7C", "background": "#A8CC7C", "selection": "#A8CC7C44" },
-          { "cursor": "#F8C762", "background": "#F8C762", "selection": "#F8C76244" },
-          { "cursor": "#EFB080", "background": "#EFB080", "selection": "#EFB08044" },
-          { "cursor": "#AAA0FA", "background": "#AAA0FA", "selection": "#AAA0FA44" },
-          { "cursor": "#87C3FF", "background": "#87C3FF", "selection": "#87C3FF44" }
+          {
+            "cursor": "#0078d4",
+            "background": "#0078d4",
+            "selection": "#264f78"
+          },
+          {
+            "cursor": "#82D2CE",
+            "background": "#82D2CE",
+            "selection": "#82D2CE44"
+          },
+          {
+            "cursor": "#E394DC",
+            "background": "#E394DC",
+            "selection": "#E394DC44"
+          },
+          {
+            "cursor": "#A8CC7C",
+            "background": "#A8CC7C",
+            "selection": "#A8CC7C44"
+          },
+          {
+            "cursor": "#F8C762",
+            "background": "#F8C762",
+            "selection": "#F8C76244"
+          },
+          {
+            "cursor": "#EFB080",
+            "background": "#EFB080",
+            "selection": "#EFB08044"
+          },
+          {
+            "cursor": "#AAA0FA",
+            "background": "#AAA0FA",
+            "selection": "#AAA0FA44"
+          },
+          {
+            "cursor": "#87C3FF",
+            "background": "#87C3FF",
+            "selection": "#87C3FF44"
+          }
         ],
         "syntax": {
           "attribute": { "color": "#AAA0FA" },
           "boolean": { "color": "#82D2CE" },
           "comment": { "color": "#909192", "font_style": "italic" },
           "comment.doc": { "color": "#909192", "font_style": "italic" },
-          "constant": { "color": "#82D2CE" },
+          "constant": { "color": "#AC9DF8" },
           "constant.builtin": { "color": "#82D2CE" },
           "constructor": { "color": "#EFB080" },
           "embedded": { "color": "#dddddd" },
           "emphasis": { "color": "#82D2CE", "font_style": "italic" },
           "emphasis.strong": { "color": "#F8C762", "font_weight": 700 },
           "enum": { "color": "#EFB080" },
-          "function": { "color": "#F8C762" },
-          "function.builtin": { "color": "#F8C762" },
-          "function.definition": { "color": "#F8C762" },
-          "function.method": { "color": "#F8C762" },
-          "function.special": { "color": "#F8C762" },
+          "function": { "color": "#E5C995" },
+          "function.builtin": { "color": "#E5C995" },
+          "function.definition": { "color": "#E5C995" },
+          "function.method": { "color": "#E5C995" },
+          "function.special": { "color": "#E5C995" },
           "hint": { "color": "#6e7681" },
           "keyword": { "color": "#82D2CE" },
           "keyword.control": { "color": "#82D2CE" },
@@ -174,7 +206,7 @@
           "predictive": { "color": "#6e7681", "font_style": "italic" },
           "preproc": { "color": "#82D2CE" },
           "primary": { "color": "#dddddd" },
-          "property": { "color": "#AC9DF8" },
+          "property": { "color": "#D6D6DD" },
           "punctuation": { "color": "#D6D6DD" },
           "punctuation.bracket": { "color": "#D6D6DD" },
           "punctuation.delimiter": { "color": "#D6D6DD" },
@@ -333,32 +365,64 @@
         "warning.background": "#cca70022",
         "warning.border": "#cca700",
         "players": [
-          { "cursor": "#0078d4", "background": "#0078d4", "selection": "#264f78" },
-          { "cursor": "#82D2CE", "background": "#82D2CE", "selection": "#82D2CE44" },
-          { "cursor": "#E394DC", "background": "#E394DC", "selection": "#E394DC44" },
-          { "cursor": "#A8CC7C", "background": "#A8CC7C", "selection": "#A8CC7C44" },
-          { "cursor": "#F8C762", "background": "#F8C762", "selection": "#F8C76244" },
-          { "cursor": "#EFB080", "background": "#EFB080", "selection": "#EFB08044" },
-          { "cursor": "#AAA0FA", "background": "#AAA0FA", "selection": "#AAA0FA44" },
-          { "cursor": "#87C3FF", "background": "#87C3FF", "selection": "#87C3FF44" }
+          {
+            "cursor": "#0078d4",
+            "background": "#0078d4",
+            "selection": "#264f78"
+          },
+          {
+            "cursor": "#82D2CE",
+            "background": "#82D2CE",
+            "selection": "#82D2CE44"
+          },
+          {
+            "cursor": "#E394DC",
+            "background": "#E394DC",
+            "selection": "#E394DC44"
+          },
+          {
+            "cursor": "#A8CC7C",
+            "background": "#A8CC7C",
+            "selection": "#A8CC7C44"
+          },
+          {
+            "cursor": "#F8C762",
+            "background": "#F8C762",
+            "selection": "#F8C76244"
+          },
+          {
+            "cursor": "#EFB080",
+            "background": "#EFB080",
+            "selection": "#EFB08044"
+          },
+          {
+            "cursor": "#AAA0FA",
+            "background": "#AAA0FA",
+            "selection": "#AAA0FA44"
+          },
+          {
+            "cursor": "#87C3FF",
+            "background": "#87C3FF",
+            "selection": "#87C3FF44"
+          }
         ],
         "syntax": {
           "attribute": { "color": "#AAA0FA" },
           "boolean": { "color": "#82D2CE" },
           "comment": { "color": "#909192", "font_style": "italic" },
           "comment.doc": { "color": "#909192", "font_style": "italic" },
-          "constant": { "color": "#82D2CE" },
+          "constant": { "color": "#AC9DF8" },
           "constant.builtin": { "color": "#82D2CE" },
           "constructor": { "color": "#EFB080" },
           "embedded": { "color": "#dddddd" },
           "emphasis": { "color": "#82D2CE", "font_style": "italic" },
           "emphasis.strong": { "color": "#F8C762", "font_weight": 700 },
           "enum": { "color": "#EFB080" },
-          "function": { "color": "#F8C762", "font_weight": 700 },
-          "function.builtin": { "color": "#F8C762", "font_weight": 700 },
-          "function.definition": { "color": "#F8C762", "font_weight": 700 },
-          "function.method": { "color": "#F8C762", "font_weight": 700 },
-          "function.special": { "color": "#F8C762", "font_weight": 700 },
+          "function": { "color": "#E5C995", "font_weight": 700 },
+          "function.builtin": { "color": "#E5C995", "font_weight": 700 },
+          "function.definition": { "color": "#E5C995", "font_weight": 700 },
+          "function.method": { "color": "#E5C995", "font_weight": 700 },
+          "function.special": { "color": "#E5C995", "font_weight": 700 },
           "hint": { "color": "#6e7681" },
           "keyword": { "color": "#82D2CE" },
           "keyword.control": { "color": "#82D2CE" },
@@ -371,7 +435,7 @@
           "predictive": { "color": "#6e7681", "font_style": "italic" },
           "preproc": { "color": "#82D2CE" },
           "primary": { "color": "#dddddd" },
-          "property": { "color": "#AC9DF8" },
+          "property": { "color": "#D6D6DD" },
           "punctuation": { "color": "#D6D6DD" },
           "punctuation.bracket": { "color": "#D6D6DD" },
           "punctuation.delimiter": { "color": "#D6D6DD" },
@@ -381,7 +445,10 @@
           "string.escape": { "color": "#D6D6DD", "font_style": "italic" },
           "string.regex": { "color": "#82D2CE", "font_style": "italic" },
           "string.special": { "color": "#82D2CE", "font_style": "italic" },
-          "string.special.symbol": { "color": "#D6D6DD", "font_style": "italic" },
+          "string.special.symbol": {
+            "color": "#D6D6DD",
+            "font_style": "italic"
+          },
           "tag": { "color": "#87C3FF" },
           "text.literal": { "color": "#E394DC" },
           "title": { "color": "#EBC88D", "font_weight": 700 },
@@ -530,14 +597,46 @@
         "warning.background": "#B8950022",
         "warning.border": "#B89500",
         "players": [
-          { "cursor": "#005FB0", "background": "#005FB0", "selection": "#CCE2F5" },
-          { "cursor": "#1F7F78", "background": "#1F7F78", "selection": "#1F7F7844" },
-          { "cursor": "#B03A88", "background": "#B03A88", "selection": "#B03A8844" },
-          { "cursor": "#4E7A2A", "background": "#4E7A2A", "selection": "#4E7A2A44" },
-          { "cursor": "#8D6B1F", "background": "#8D6B1F", "selection": "#8D6B1F44" },
-          { "cursor": "#A85A29", "background": "#A85A29", "selection": "#A85A2944" },
-          { "cursor": "#5A4ECF", "background": "#5A4ECF", "selection": "#5A4ECF44" },
-          { "cursor": "#1C5DB5", "background": "#1C5DB5", "selection": "#1C5DB544" }
+          {
+            "cursor": "#005FB0",
+            "background": "#005FB0",
+            "selection": "#CCE2F5"
+          },
+          {
+            "cursor": "#1F7F78",
+            "background": "#1F7F78",
+            "selection": "#1F7F7844"
+          },
+          {
+            "cursor": "#B03A88",
+            "background": "#B03A88",
+            "selection": "#B03A8844"
+          },
+          {
+            "cursor": "#4E7A2A",
+            "background": "#4E7A2A",
+            "selection": "#4E7A2A44"
+          },
+          {
+            "cursor": "#8D6B1F",
+            "background": "#8D6B1F",
+            "selection": "#8D6B1F44"
+          },
+          {
+            "cursor": "#A85A29",
+            "background": "#A85A29",
+            "selection": "#A85A2944"
+          },
+          {
+            "cursor": "#5A4ECF",
+            "background": "#5A4ECF",
+            "selection": "#5A4ECF44"
+          },
+          {
+            "cursor": "#1C5DB5",
+            "background": "#1C5DB5",
+            "selection": "#1C5DB544"
+          }
         ],
         "syntax": {
           "attribute": { "color": "#5A4ECF" },
@@ -727,14 +826,46 @@
         "warning.background": "#B8950022",
         "warning.border": "#B89500",
         "players": [
-          { "cursor": "#005FB0", "background": "#005FB0", "selection": "#CCE2F5" },
-          { "cursor": "#1F7F78", "background": "#1F7F78", "selection": "#1F7F7844" },
-          { "cursor": "#B03A88", "background": "#B03A88", "selection": "#B03A8844" },
-          { "cursor": "#4E7A2A", "background": "#4E7A2A", "selection": "#4E7A2A44" },
-          { "cursor": "#8D6B1F", "background": "#8D6B1F", "selection": "#8D6B1F44" },
-          { "cursor": "#A85A29", "background": "#A85A29", "selection": "#A85A2944" },
-          { "cursor": "#5A4ECF", "background": "#5A4ECF", "selection": "#5A4ECF44" },
-          { "cursor": "#1C5DB5", "background": "#1C5DB5", "selection": "#1C5DB544" }
+          {
+            "cursor": "#005FB0",
+            "background": "#005FB0",
+            "selection": "#CCE2F5"
+          },
+          {
+            "cursor": "#1F7F78",
+            "background": "#1F7F78",
+            "selection": "#1F7F7844"
+          },
+          {
+            "cursor": "#B03A88",
+            "background": "#B03A88",
+            "selection": "#B03A8844"
+          },
+          {
+            "cursor": "#4E7A2A",
+            "background": "#4E7A2A",
+            "selection": "#4E7A2A44"
+          },
+          {
+            "cursor": "#8D6B1F",
+            "background": "#8D6B1F",
+            "selection": "#8D6B1F44"
+          },
+          {
+            "cursor": "#A85A29",
+            "background": "#A85A29",
+            "selection": "#A85A2944"
+          },
+          {
+            "cursor": "#5A4ECF",
+            "background": "#5A4ECF",
+            "selection": "#5A4ECF44"
+          },
+          {
+            "cursor": "#1C5DB5",
+            "background": "#1C5DB5",
+            "selection": "#1C5DB544"
+          }
         ],
         "syntax": {
           "attribute": { "color": "#5A4ECF" },
@@ -775,7 +906,10 @@
           "string.escape": { "color": "#1F2024", "font_style": "italic" },
           "string.regex": { "color": "#1F7F78", "font_style": "italic" },
           "string.special": { "color": "#1F7F78", "font_style": "italic" },
-          "string.special.symbol": { "color": "#1F2024", "font_style": "italic" },
+          "string.special.symbol": {
+            "color": "#1F2024",
+            "font_style": "italic"
+          },
           "tag": { "color": "#1C5DB5" },
           "text.literal": { "color": "#B03A88" },
           "title": { "color": "#8F6614", "font_weight": 700 },
